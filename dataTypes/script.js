@@ -91,3 +91,12 @@ function greeting(){
 
 console.log("function :",greeting)
 
+
+function getType(value){
+
+    if(value === null){
+        return null
+    }else{
+        return typeof value
+    }
+}
